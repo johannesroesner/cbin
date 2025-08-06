@@ -30,14 +30,15 @@ This script automates the creation of a remote GitHub repository directly from y
 ./init-repo.sh test-repo-name true "Initial commit"
 ```
 
-### 2. **`zsh-fleet-wrapper.sh`**: Customize Terminal Behavior in JetBrains Fleet IDE
+### 2. **`zsh-ide-wrapper.sh`**: Customize Terminal Behavior inside IDEs via Flag
 
-JetBrains Fleet IDE currently only allows you to specify which binary will open as the terminal inside the terminal tab.
+For example JetBrains Fleet IDE currently only allows you to specify which binary will open as the terminal inside the
+terminal tab.
 This
 script helps `zsh`
 to "know" where the terminal is being called from, whether it's from Fleet or a regular terminal session.
 
 #### **Purpose**
 
-- Customize `zsh` behavior to handle terminal environments differently depending on whether it's opened from Fleet or
+- Customize `zsh` behavior to handle terminal environments differently depending on whether it's opened from an IDE or
   elsewhere.

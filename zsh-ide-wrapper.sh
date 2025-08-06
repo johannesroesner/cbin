@@ -1,3 +1,3 @@
 #!/bin/bash
-export FLEET_MODE=1
+export IDE_MODE=1
 exec /bin/zsh "$@"
