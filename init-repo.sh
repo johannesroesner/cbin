@@ -28,7 +28,7 @@ git config user.name "$GITHUB_USER"
 git config user.email "$GITHUB_EMAIL"
 echo "# $REPOSITORY_NAME" >>README.md
 git add .
-git commit -m $FIRST_COMMIT_MESSAGE
+git commit -m "$FIRST_COMMIT_MESSAGE"
 
 # create github repo based on local git repo
 if [[ $PUBLIC_FLAG == "true" ]]; then
