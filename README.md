@@ -42,3 +42,9 @@ to "know" where the terminal is being called from, whether it's from Fleet or a 
 
 - Customize `zsh` behavior to handle terminal environments differently depending on whether it's opened from an IDE or
   elsewhere.
+
+### 3. **`oth-vpn.sh`**: Handy CLI wrapper for the university VPN
+
+#### **Purpose**
+
+- Not so much words to remember :D
